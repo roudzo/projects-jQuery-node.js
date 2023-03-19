@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love calculator</title>
+    <style>
+        body{
+            background-color: red;
+            text-align: center;
+        }
+
+    
+    </style>
+</head>
+<body>
+    <h1>Love Calculator</h1>
+    <p> Our new matching system </p>
+
+<form method="post">
+    <input type="text" name="n1">
+    <span>&#10084;</span>
+    <input type="text" name="n2">
+    <button class="button " onclick="calculator()" > calculate</button>
+</form>
+    <script>
+        function calculator(){
+            var n = Math.random()*100;
+            n = Math.floor(n)+1;
+        alert("your love score is " +n+"%");
+        }
+    </script>
+</body>
+</html>
